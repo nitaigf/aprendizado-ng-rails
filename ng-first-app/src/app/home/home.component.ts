@@ -9,9 +9,11 @@ import { Component } from '@angular/core';
         <button class="primary" type="button">Search</button>
       </form>
     </section>
+    <section class="results">
+      <app-housing-location></app-housing-location>
+    </section>
   `,
-  styleUrl: './home.component.scss',
-  standalone: true,
+  styleUrl: './home.component.scss'
 })
 export class HomeComponent {
 
