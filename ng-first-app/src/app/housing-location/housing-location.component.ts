@@ -2,11 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-housing-location',
-  template: `
-    <p>
-      housing-location works!
-    </p>
-  `,
+  templateUrl: './housing-location.component.html',
   styleUrl: './housing-location.component.scss'
 })
 export class HousingLocationComponent {
